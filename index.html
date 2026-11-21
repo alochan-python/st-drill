@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>ST午後Ⅱ 骨子演習</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="row1">
+    <h1>ST午後Ⅱ 高速骨子演習</h1>
+  </div>
+  <nav class="tabs" id="tabs" aria-label="モード"></nav>
+  <div class="speed" id="speed" aria-label="速度ゲージ"></div>
+  <div class="progress" id="progress"></div>
+</header>
+
+<main id="card" class="card"></main>
+
+<footer class="foot">
+  <p class="formula">再現度＝このセッションの自己採点（B キー再現・D 本文起動）を型別に平均。○＝1、△＝0.5、×＝0。回答がない型は「−」。</p>
+  <p class="formula">キーボード：1〜4 で速度変更（入力欄の外で）。</p>
+  <button type="button" id="reset" class="ghost">セッションをリセット</button>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
